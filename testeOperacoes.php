@@ -7,7 +7,19 @@
 </head>
 <body>
     
-<?php include "operacoes.php" ?>
+<?php include "operacoes.php"; 
+    
+       $resultado = 4;
+        $resultado2=4;
+        
+        echo " o resultado da soma é: ".soma($resultado,$resultado2);
+        
+         echo " o resultado da subtracao é: ".subtracao($resultado, $resultado2);
+         
+         echo " o resultado da multiplicacao é: ".multiplicar($resultado, $resultado2);
+         
+         echo " o resultado da divisao é: ".divisao($resultado, $resultado2);
+ ?>
     
 </body>
 
